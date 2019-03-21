@@ -1,0 +1,13 @@
+#debug: true
+spring:
+  datasource:
+    cgy:
+      username: root
+      password: 123456
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/cgy?Unicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    cgy1:
+      username: root
+      password: 123456
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/cgy1?Unicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+server:
+  port: 8089        
